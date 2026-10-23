@@ -1,4 +1,7 @@
-sim
 gls
-*.vcd
+mult.vcd
+pnr/runs/
 runs/
+sim
+simv
+*.vcd
