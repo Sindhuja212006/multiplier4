@@ -5,3 +5,5 @@ runs/
 sim
 simv
 *.vcd
+report/*
+!report/report.pdf

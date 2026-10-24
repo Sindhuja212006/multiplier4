@@ -8,5 +8,6 @@ module full_adder (
     output wire cout
 );
     assign sum  = a ^ b ^ cin;
+    // assign sum  = a ^ b; // to check if 'FAIL' prints or not
     assign cout = (a & b) | (cin & (a ^ b));
 endmodule
